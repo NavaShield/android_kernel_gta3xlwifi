@@ -1,6 +1,6 @@
 #ifndef _LINUX_BITOPS_H
 #define _LINUX_BITOPS_H
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef	__KERNEL__
 #define BIT(nr)			(1UL << (nr))
